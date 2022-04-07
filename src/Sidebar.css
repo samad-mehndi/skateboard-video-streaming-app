@@ -1,0 +1,28 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    color: whitesmoke;
+    padding: 20px;
+
+}
+
+.sidebar__menu{
+    color: rgb(121, 116, 116);
+    margin-top: 50px;
+    border-bottom: 1px solid lightgray;
+    height: 320px;
+    width: 140px;
+}
+.home{
+    margin-top: 25px !important;
+    padding: 0 !important;
+    color: lightgray !important;
+    display: block !important;
+}
+
+.sidebar__catagory{
+    margin-top: 40px;
+    color: rgb(121, 116, 116);
+}
+

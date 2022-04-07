@@ -1,0 +1,156 @@
+.main__body{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+    align-items: flex-start;
+    /* width: 980px; */
+}
+
+.main__header{
+    width: 65vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main__header input{
+    width: 60%;
+    height: 50%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.header__right{
+    width: 12vw;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search__bar{
+    background-color: #403D50;
+    border: 0;
+}
+
+.drop__down{
+    background-color: #1E1D2D;
+    width: 90px;
+    height: 30px;
+    color: rgb(189, 184, 184);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #403D50;
+    border: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.bell__icon{
+    color: #7e7a8f;
+}
+.main__heading{
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.main__content{
+    width: 120%;
+    height: 40%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.main__contentLeft{
+    display: inline-block;
+    width: 41%;
+    height: 80%;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-image: url("./Skateboard.jpg");
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(124, 113, 113);
+    border: 0;
+}
+.main__contentRight{
+    display: inline-block;
+    border: 0;
+    box-shadow: 1px 1px 10px rgb(124, 113, 113);
+    width: 32%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-image: url("./Skateboard__1.jpg");
+}
+
+.main__cards{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.card__div{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    /* margin: 10px; */
+    border-radius: 15px;
+    background-color: #262936;
+}
+
+.image__div{
+    width: 200px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.div__1{
+    background-image: url("./Skateboard__2.jpg");
+}
+.div__2{
+    background-image: url("./Skateboard__3.jpg");
+}
+.div__3{
+    background-image: url("./Skateboard__4.jpg");
+}
+.div__4{
+    background-image: url("./Skateboard__5.jpg");
+}
+
+.card__header{
+    width: 180px;
+    /* height: 110px; */
+    /* border: 1px solid black;  */
+    /* to be deleted */
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    color: rgb(160, 154, 154);
+    margin: 5px;
+}
+
+.avatar{
+    margin-top: -20px;
+    box-shadow: 2px 2px 10px rgb(88, 100, 114);
+    padding: 1px;
+}
+
+.card__content{
+    display: flex;
+    width: 200px;
+    /* border: 1px solid black; */
+    color: rgb(209, 207, 207);
+    padding: 5px;
+}
+
+.drop__down{
+    box-shadow: 1px 1px 5px whitesmoke;
+    background-color: rgb(17, 16, 24);
+    padding: 1px;
+}
+
+.dropdown__content{
+    box-shadow: 1px 1px 5px whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+}

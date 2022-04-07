@@ -1,0 +1,21 @@
+.switch__main{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.switch__body{
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(64, 85, 179);
+    margin-right: 15px;
+    
+}
+
+.switch__btn{
+    margin-left: 50%;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(236, 233, 229);
+    border-radius: 20px;
+}
